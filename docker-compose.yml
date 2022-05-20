@@ -1,11 +1,11 @@
 version: "3.9"
 
 services:
-  May:
+  may:
     build:
       context: "."
       dockerfile: Dockerfile
-    container_name: May
+    container_name: may
     environment:
       - APP_ID=${APP_ID}
       - API_HASH=${API_HASH}
