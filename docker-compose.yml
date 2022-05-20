@@ -11,7 +11,7 @@ services:
       - API_HASH=${API_HASH}
       - BOT_TOKEN=${BOT_TOKEN}
       - OWNER=${OWNER}
-      - THUMBNAIL=${THUMBNAIL}
+      - FFMPEG=${FFMPEG}
     volumes:
       - "/codebase:/codebase"
       - "/storage:/storage"
