@@ -1,16 +1,16 @@
 version: "3.9"
 
 services:
-  tgvid-comp-bot:
+  May:
     build:
       context: "."
       dockerfile: Dockerfile
     container_name: May
     environment:
-      - APP_ID=7971200
-      - API_HASH=cf23936d1f4b16bfa49c11ba52ff3a54
-      - BOT_TOKEN=1953935836:AAGdDYFpxa15fg7qDhin5wVLaAElsx5ih1I
-      - OWNER=1449986020
+      - APP_ID=${APP_ID}
+      - API_HASH=${API_HASH}
+      - BOT_TOKEN=${BOT_TOKEN}
+      - OWNER=${OWNER}
       - THUMBNAIL=${THUMBNAIL}
     volumes:
       - "/codebase:/codebase"
